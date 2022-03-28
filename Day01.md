@@ -139,16 +139,16 @@ Markdown을 해서 작성한 것을 보여주고 Raw 날것의 코드와 보여�
 
 ### Github에 연동
   - 원격저장소 (Remote Repository)
-      1. Github에 원격 저장소를 생성 New repository이용
-      2. 로컬 저장소와 원격 저장소 연결
+    1. Github에 원격 저장소를 생성 New repository이용
+    2. 로컬 저장소와 원격 저장소 연결
         원격 저장소 확인후 저장소 주소를 복사하고 
         git init을 이용해 사용할 폴더를 로컬 저장소로 만들어줌
         git remote add <이름> <주소> 형식으로 작성
         git remote add origin 주소
         git remote -v로 조회
         git remote rm <이름> 으로 삭제 연결을 끊는 것이지 자체를 삭제X
-      3. 원격 저장소에 업로드
-     파일을 업로드 하는 것이 아닌 커밋을 업로드 하는 것임
+    3. 원격 저장소에 업로드
+       파일을 업로드 하는 것이 아닌 커밋을 업로드 하는 것임
         1. 로컬 저장소에서 커밋 생성
         git status  -> git add -> git commit -> git log로 확인
         2. git push
